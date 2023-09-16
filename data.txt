@@ -1,0 +1,11 @@
+10
+101 Simple 12.5
+102 Doble 15.3
+103 Matrimonial 11.8
+104 Simple 14.2
+105 Doble 13.7
+106 Matrimonial 10.5
+107 Simple 16.9
+108 Doble 19.4
+109 Matrimonial 17.2
+110 Simple 18.1

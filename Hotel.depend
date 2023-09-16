@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1694101303 source:d:\2023\2023-2\edx\cpp\hotel\main.cpp
+	<iostream>
+	"Habitacion.h"
+	"Hotel.h"
+
+1694099271 source:d:\2023\2023-2\edx\cpp\hotel\habitacion.cpp
+	"Habitacion.h"
+
+1694099250 d:\2023\2023-2\edx\cpp\hotel\habitacion.h
+	<string>
+	<iostream>
+
+1694101290 source:d:\2023\2023-2\edx\cpp\hotel\hotel.cpp
+	"Hotel.h"
+
+1694100809 d:\2023\2023-2\edx\cpp\hotel\hotel.h
+	"Habitacion.h"
+	<vector>
+	<fstream>
+

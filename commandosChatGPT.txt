@@ -1,0 +1,7 @@
+commando1:
+
+hola, puedes generarme data aleatoria de una tabla con 10 filas donde la primera columna es el numero de habitacion de un hotel que 10 pisos con 10  habitaciones por cada nivel, la segunda columna es el tipo de habitacion ya sea simple, doble ó matrimonial, la ultima columna representa el area de la habitacion que es un numero aleatorio entre 10 a 20 metros cuadrados
+
+commando2:
+
+por favor recrea la tabla pero en formato csv con un espacio como separador
