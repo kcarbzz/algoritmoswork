@@ -3,11 +3,12 @@
 // Todos los registros deben ser almacenados en un archivo, a cada ítem se le identifica por un código único.
 #include "MINI.h"
 
-MINI::MINI(string ub,string t,string nombre)
+MINI::MINI(string ub,string t,string nom, string wb)
 {
     this->ubicacion = ub;
     this->telefono = t;
-    this->nombre = nombre;
+    this->nombre = nom;
+    this->web =wb;
 }
 
 MINI::~MINI()
