@@ -9,7 +9,7 @@ Record::Record(int nh, string tip, float area) {
     this->tipo = tip;
 }
 
-Record::~Record() {
+Record::~Record( ) {
     //dtor
 }
 

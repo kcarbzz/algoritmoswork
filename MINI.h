@@ -1,5 +1,7 @@
-#ifndef HOTEL_H
-#define HOTEL_H
+//Desarrollar un sistema de registro de stock de un minimarket que permite agregar, editar y eliminar registros de libros, mostrar los productos por categoría.
+// Todos los registros deben ser almacenados en un archivo, a cada ítem se le identifica por un código único.
+#ifndef MINI_H
+#define MINI_H
 
 #include "Record.h"
 #include <vector>
@@ -8,10 +10,10 @@
 
 using std::string; // Declara el tipo 'string'
 
-class Hotel
+class MINI
 {
 public:
-    Hotel(string ub = "Av. Primavera 2390", string t = "12309", string nombre = "UPC hotels");
+    MINI(string ub = "Av. Primavera 2390", string t = "12309", string nombre = "UPC hotels");
     void set_ubicacion(string ub) { this->ubicacion = ub; };
     void set_tel(string t) { this->telefono = t; };
     void set_nombre(string nom) { this->nombre = nom; };
@@ -21,7 +23,7 @@ public:
     void show();
     void load_habitacion(string path = "data.txt");
     void show_habitaciones();
-    virtual ~Hotel();
+    virtual ~MINI();
 
 private:
     string ubicacion;
@@ -30,4 +32,4 @@ private:
     vector<Record> Lista;
 };
 
-#endif // HOTEL_H
+#endif // MINI_H

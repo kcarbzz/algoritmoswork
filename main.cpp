@@ -1,17 +1,28 @@
 #include <iostream>
 #include "Record.h"
-#include "Hotel.h"
+#include "MINI.h"
+#include <cstdio>
+#include <string>
 using namespace std;
 
 int main()
 {
-    /*
-    Habitacion hb;
+    string u = R"(
+██████╗░███████╗░██████╗░██╗░██████╗████████╗██████╗░░█████╗░
+██╔══██╗██╔════╝██╔════╝░██║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗
+██████╔╝█████╗░░██║░░██╗░██║╚█████╗░░░░██║░░░██████╔╝██║░░██║
+██╔══██╗██╔══╝░░██║░░╚██╗██║░╚═══██╗░░░██║░░░██╔══██╗██║░░██║
+██║░░██║███████╗╚██████╔╝██║██████╔╝░░░██║░░░██║░░██║╚█████╔╝
+╚═╝░░╚═╝╚══════╝░╚═════╝░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░)";
+
+    printf("El número es: %s\n", u.c_str());
+
+    Record hb;
     hb.show();
-    Habitacion dos(102,"doble",20.0);
+    Record dos(102, "doble", 20.0);
     dos.show();
-    */
-    Hotel upc;
+    
+    MINI upc;
     upc.show();
     upc.load_habitacion();
     upc.show_habitaciones();

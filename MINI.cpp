@@ -1,24 +1,24 @@
 
 //Desarrollar un sistema de registro de stock de un minimarket que permite agregar, editar y eliminar registros de libros, mostrar los productos por categoría.
 // Todos los registros deben ser almacenados en un archivo, a cada ítem se le identifica por un código único.
-#include "Hotel.h"
+#include "MINI.h"
 
-Hotel::Hotel(string ub,string t,string nombre)
+MINI::MINI(string ub,string t,string nombre)
 {
     this->ubicacion = ub;
     this->telefono = t;
     this->nombre = nombre;
 }
 
-Hotel::~Hotel()
+MINI::~MINI()
 {
     //dtor
 }
 
-void Hotel::show(){
+void MINI::show(){
     cout<<this->nombre<<": "<<this->ubicacion<<", "<<this->telefono<<endl;
 }
-void Hotel::load_habitacion(string path)
+void MINI::load_habitacion(string path)
 {
     ifstream in(path);
     int nro;
@@ -35,7 +35,7 @@ void Hotel::load_habitacion(string path)
     in.close();
 
 }
-void Hotel::show_habitaciones(){
+void MINI::show_habitaciones(){
     for(auto e:this->Lista){
         e.show();
     }
